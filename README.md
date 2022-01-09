@@ -9,7 +9,7 @@ This is my 2nd C++ project. I tried to get used to Single Responsibility Princip
 ## ⚒️Skills used
 * C++, SFML
 
-## Your goal in this game
+## 🥅Your goal in this game
 * You have to remember the order where the buttons blinked and get it correct in each stage.
 
 ## Game rule, features
