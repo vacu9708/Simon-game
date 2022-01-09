@@ -13,6 +13,6 @@ This is my 2nd C++ project. I tried to get used to Single Responsibility Princip
 * You have to remember the order the buttons blinked and get it correct in each stage.
 
 ## Game rule, features
-* The order the buttons blink are random.
-* The speed the buttons blink get faster and faster as the game progresses.
+* The order the buttons blink is random.
+* The speed the buttons blink gets faster and faster as the game progresses.
 * If you get the order wrong, you lose the game
