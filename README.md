@@ -10,7 +10,7 @@ This is my 2nd C++ project. I tried to get used to Single Responsibility Princip
 * C++, SFML
 
 ## 🥅Your goal in this game
-* You have to remember the order where the buttons blinked and get it correct in each stage.
+* You have to remember the order the buttons blinked and get it correct in each stage.
 
 ## Game rule, features
 * The order the buttons blink are random.
