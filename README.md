@@ -1,11 +1,12 @@
 # Simon-game
-This is my 2nd C++ project. I tried to get used to Single Responsibility Principle in this project.
 
 <img src="https://user-images.githubusercontent.com/67142421/148685520-cf23172d-391c-432a-8177-c321fadd1316.png" width="400" height="300">
 <img src="https://user-images.githubusercontent.com/67142421/148685526-47106084-adbd-4bfd-a15f-26246d82b6c7.png" width="400" height="300">
 
 ### 📺Video : https://youtu.be/5B9BsSYVtic
 ---
+This is my 2nd C++ project. I tried to get used to Single Responsibility Principle in this project.
+
 ## ⚒️Skills used
 * C++, SFML
 
