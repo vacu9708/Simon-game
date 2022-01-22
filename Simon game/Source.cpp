@@ -18,13 +18,13 @@ int random_integer(int min, int max) {
 }
 
 RenderWindow* window;
-int n_of_buttons = 0;
+short n_of_buttons = 0;
 
 class Start_choice {
 	Text choice_text;
 public:
 	CircleShape choice;
-	Start_choice(int number, int x, int y, Font& font) {
+	Start_choice(short number, int x, int y, Font& font) {
 		// Draw circles
 		choice.setRadius(55);
 		choice.setFillColor(Color::Green);
@@ -68,7 +68,7 @@ void start() {
 	//-----
 
 	vector<Start_choice> start_choices;
-	int x = 11, y = 133; // Show the choices to decide the number of buttons
+	short x = 11, y = 133; // Show the choices to decide the number of buttons
 	for (int i = 0; i < 7; i++) {
 		start_choices.push_back(Start_choice(i + 4, x, y, font));
 		x += 120;
@@ -139,7 +139,7 @@ int stage = 1;
 Text *stage_displayer;
 class Button_set {
 	Font font;
-	int n_of_buttons;
+	short n_of_buttons;
 	vector<Button> buttons;
 	SoundBuffer soundbuffer[11];
 	Color colors[11] =
@@ -147,7 +147,7 @@ class Button_set {
 		Color(0,102,102), Color(102,0,204), Color(153,255,51), Color(255,102,150),
 		Color::Black };
 public:
-	Button_set(int n_of_buttons) {
+	Button_set(short n_of_buttons) {
 		font.loadFromFile("resources/AGENCYR.ttf");
 		delete stage_displayer;
 		stage_displayer = new Text();
@@ -157,7 +157,7 @@ public:
 		stage_displayer->setPosition(11, 11);
 
 		this->n_of_buttons = n_of_buttons;
-		int x = 11, y = 111;
+		short x = 11, y = 111;
 		for (int i = 0; i < n_of_buttons; i++) {
 			buttons.push_back(Button(colors[i], x, y));
 			x += 120;
