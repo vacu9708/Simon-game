@@ -17,3 +17,5 @@ This is my 2nd C++ project. I tried to get used to Single Responsibility Princip
 * The order the buttons blink is random.
 * The speed the buttons blink gets faster and faster as the game progresses.
 * If you get the order wrong, you lose the game
+
+The way of installing SFML is written in Dodge poop page.
